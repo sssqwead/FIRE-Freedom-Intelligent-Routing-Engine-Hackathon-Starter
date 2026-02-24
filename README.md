@@ -1,0 +1,2 @@
+# FIRE-Freedom-Intelligent-Routing-Engine-Hackathon-Starter
+FIRE (Freedom Intelligent Routing Engine) is an intelligent ticket routing system that processes, enriches, and distributes requests across business units and managers. It uses rule-based logic, optional LLM integration, and geolocation to optimize assignment. Built with FastAPI, PostgreSQL, and Streamlit, it’s a scalable MVP with SaaS potential.
