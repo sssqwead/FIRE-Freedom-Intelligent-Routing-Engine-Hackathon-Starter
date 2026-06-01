@@ -27,6 +27,7 @@ def process():
 @router.get("/tickets")
 def tickets(limit: int = 200, offset: int = 0):
     with SessionLocal() as db:
+        # Note: This endpoint is not paginated in the frontend, but we can still support pagination here for future use.
         return list_tickets_with_details(db, limit=limit, offset=offset)
 
 @router.get("/dashboard/summary")
